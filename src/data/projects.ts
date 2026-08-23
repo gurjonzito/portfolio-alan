@@ -11,7 +11,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    image: "./src/assets/hydro.png",
+    image: "../assets/hydro.png",
     title: "Hydro+ Gestão",
     description:
       "Sistema desktop em WinForms (C#) para gestão de serviços de poços artesianos, incluindo dashboard, cadastro de clientes, OS, relatórios e controle financeiro.",
@@ -20,7 +20,7 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    image: "./src/assets/oportuniza.png",
+    image: "../assets/oportuniza.png",
     title: "Oportuniza Jovem",
     description:
       "Plataforma web gratuita desenvolvida como projeto de TCC, que organiza vídeos educacionais do YouTube em trilhas de aprendizagem estruturadas para democratizar o acesso à educação.",
@@ -30,7 +30,7 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    image: "./src/assets/portfolio.png",
+    image: "../assets/portfolio.png",
     title: "Portfólio Pessoal",
     description:
       "Este próprio portfólio, landing page responsiva com dark/light mode, animações suaves e formulário de contato via EmailJS.",
