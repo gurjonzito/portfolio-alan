@@ -8,8 +8,7 @@ const LinkedinIcon = () => (
   </svg>
 );
 
-// Substitua pela URL da sua foto ou importe de /src/assets/
-const PROFILE_IMG = "/src/assets/perfil.jpg";
+const PROFILE_IMG = "./src/assets/perfil.jpg";
 
 const SOCIAL = [
   {
