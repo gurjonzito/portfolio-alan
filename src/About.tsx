@@ -62,7 +62,7 @@ export default function About() {
                   className="card p-5 flex items-start gap-4"
                 >
                   <span
-                    className="flex-shrink-0 w-9 h-9 rounded-xl flex items-center justify-center"
+                    className="shrink-0 w-9 h-9 rounded-xl flex items-center justify-center"
                     style={{
                       background: "var(--accent-glow)",
                       color: "var(--accent)",

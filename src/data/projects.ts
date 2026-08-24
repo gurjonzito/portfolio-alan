@@ -1,3 +1,7 @@
+import hydro from "../assets/hydro.png";
+import oportuniza from "../assets/oportuniza.png";
+import portfolio from "../assets/portfolio.png";
+
 export interface Project {
   id: number;
   title: string;
@@ -11,7 +15,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    image: "../assets/hydro.png",
+    image: hydro,
     title: "Hydro+ Gestão",
     description:
       "Sistema desktop em WinForms (C#) para gestão de serviços de poços artesianos, incluindo dashboard, cadastro de clientes, OS, relatórios e controle financeiro.",
@@ -20,7 +24,7 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    image: "../assets/oportuniza.png",
+    image: oportuniza,
     title: "Oportuniza Jovem",
     description:
       "Plataforma web gratuita desenvolvida como projeto de TCC, que organiza vídeos educacionais do YouTube em trilhas de aprendizagem estruturadas para democratizar o acesso à educação.",
@@ -30,7 +34,7 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    image: "../assets/portfolio.png",
+    image: portfolio,
     title: "Portfólio Pessoal",
     description:
       "Este próprio portfólio, landing page responsiva com dark/light mode, animações suaves e formulário de contato via EmailJS.",

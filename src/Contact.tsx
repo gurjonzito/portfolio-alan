@@ -63,7 +63,7 @@ export default function Contact() {
           {/* Email direto */}
           <a
             href="mailto:alangurjon@gmail.com"
-            className="flex items-center gap-3 px-5 py-3 rounded-xl border mb-8 transition-all hover:bg-[var(--accent-glow)] hover:border-[var(--accent)] w-fit mx-auto"
+            className="flex items-center gap-3 px-5 py-3 rounded-xl border mb-8 transition-all hover:bg-(--accent-glow) hover:border-(--accent) w-fit mx-auto"
             style={{
               borderColor: "var(--border-color)",
               color: "var(--text-muted)",

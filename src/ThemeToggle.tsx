@@ -27,7 +27,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-xl hover:bg-[var(--accent-glow)] transition-all duration-200 cursor-pointer"
+      className="p-2 rounded-xl hover:bg-(--accent-glow) transition-all duration-200 cursor-pointer"
       style={{ color: "var(--accent)" }}
       aria-label="Alternar tema"
     >

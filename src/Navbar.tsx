@@ -44,7 +44,7 @@ export default function Navbar() {
                 e.preventDefault();
                 handleNav(link.href);
               }}
-              className="px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200 hover:bg-[var(--accent-glow)] hover:text-[var(--accent)]"
+              className="px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200 hover:bg-(--accent-glow) hover:text-(--accent)"
               style={{ color: "var(--text-muted)" }}
             >
               {link.label}
@@ -58,7 +58,7 @@ export default function Navbar() {
 
           {/* Mobile hamburger */}
           <button
-            className="md:hidden p-2 rounded-xl hover:bg-[var(--accent-glow)] transition-all"
+            className="md:hidden p-2 rounded-xl hover:bg-(--accent-glow) transition-all"
             style={{ color: "var(--text-color)" }}
             onClick={() => setOpen(!open)}
             aria-label="Menu"
@@ -85,7 +85,7 @@ export default function Navbar() {
                 e.preventDefault();
                 handleNav(link.href);
               }}
-              className="px-4 py-3 rounded-xl text-sm font-medium transition-all hover:bg-[var(--accent-glow)] hover:text-[var(--accent)]"
+              className="px-4 py-3 rounded-xl text-sm font-medium transition-all hover:bg-(--accent-glow) hover:text-(--accent)"
               style={{ color: "var(--text-muted)" }}
             >
               {link.label}

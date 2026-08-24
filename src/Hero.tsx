@@ -1,4 +1,5 @@
 import { ArrowDown, GitBranch, Mail } from "lucide-react";
+import perfil from "./assets/perfil.jpg"
 
 const LinkedinIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -8,7 +9,7 @@ const LinkedinIcon = () => (
   </svg>
 );
 
-const PROFILE_IMG = "../assets/perfil.jpg";
+const PROFILE_IMG = perfil;
 
 const SOCIAL = [
   {
@@ -79,7 +80,7 @@ export default function Hero() {
               </button>
               <button
                 onClick={scrollToContact}
-                className="px-6 py-3 rounded-xl border font-display font-semibold text-sm transition-all hover:bg-[var(--accent-glow)] hover:border-[var(--accent)]"
+                className="px-6 py-3 rounded-xl border font-display font-semibold text-sm transition-all hover:bg-(--accent-glow) hover:border-(--accent) cursor-pointer"
                 style={{
                   borderColor: "var(--border-color)",
                   color: "var(--text-color)",
@@ -98,7 +99,7 @@ export default function Hero() {
                   target={s.href.startsWith("http") ? "_blank" : undefined}
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="w-10 h-10 rounded-xl flex items-center justify-center border transition-all hover:bg-[var(--accent-glow)] hover:border-[var(--accent)] hover:-translate-y-0.5"
+                  className="w-10 h-10 rounded-xl flex items-center justify-center border transition-all hover:bg-(--accent-glow) hover:border-(--accent) hover:-translate-y-0.5 cursor-pointer"
                   style={{
                     borderColor: "var(--border-color)",
                     color: "var(--text-muted)",
@@ -112,7 +113,7 @@ export default function Hero() {
 
           {/* Foto */}
           <div
-            className="flex-shrink-0 animate-fade-up"
+            className="shrink-0 animate-fade-up"
             style={{ animationDelay: "0.15s" }}
           >
             <div

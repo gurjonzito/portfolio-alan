@@ -79,7 +79,7 @@ export default function Projects() {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg border transition-all hover:bg-[var(--accent-glow)] hover:border-[var(--accent)]"
+                      className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg border transition-all hover:bg-(--accent-glow) hover:border-(--accent)"
                       style={{
                         borderColor: "var(--border-color)",
                         color: "var(--text-muted)",
@@ -95,7 +95,7 @@ export default function Projects() {
                         project.live.startsWith("http") ? "_blank" : undefined
                       }
                       rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg border transition-all hover:bg-[var(--accent-glow)] hover:border-[var(--accent)]"
+                      className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg border transition-all hover:bg-(--accent-glow) hover:border-(--accent)"
                       style={{
                         borderColor: "var(--border-color)",
                         color: "var(--text-muted)",
